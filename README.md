@@ -24,7 +24,11 @@ Make sure this script is executable with
 ``
 chmod +x autoVote.py
 ``
-If you start the script with no parameters: './autoVote.py' it uses the default config section in config.yml.
+If you start the script with no parameters:
+``
+./autoVote.py
+``
+it uses the default config section in config.yml.
 If you want to run a different config secion, you can add it as an argument.
 Example: 
 ``
