@@ -5,7 +5,7 @@ Script to vote automatically from text files with delegate names, addresses and/
 Make sure to have installed the imported python modules time, httplib, socket, json, requests, os, yaml.
 For example in Ubuntu this is done with 
 ``
-sudo apt-get install python-httplib2 python-requests python-yaml
+sudo apt-get install python-httplib2 python-requests python-yaml -y
 ``
 If you start the script with missing modules it will tell you which modules you have to install.
 Read also the header in autoVote.py, but you don't have to modify autoVote.py. All you have to adapt is config.yml.
